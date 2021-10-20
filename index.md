@@ -1,5 +1,5 @@
 # Vasiliy Anisimov
-Hi! I’m Vasiliy, a Principal Software Engineer & iOS developer at [VOIR](https://voir.me/), working as a iOS Tech Lead. Currently living near St Petersburg, Russia.
+Hi! I’m Vasiliy, a Principal Software Engineer & iOS developer at [Reveal](https://reveal.cam/), working as a iOS Tech Lead. Currently living near St Petersburg, Russia.
 
 9 years of work experience in the software development field.
 
