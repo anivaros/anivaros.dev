@@ -1,0 +1,12 @@
+{% if page.navigation %}
+  <link rel="stylesheet" href="{{ '/assets/localnav.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/incipe" %}
+  <meta property="apple-itunes-app" content="app-id=1575544584">
+  <meta property="apple-mobile-web-app-title" content="Incipe">
+  <meta property="application-name" content="Incipe">
+  <link rel="stylesheet" href="{{ '/assets/incipe.css' | relative_url }}">
+{% endif %}
+{% if page.url == "/" %}
+  <link rel="stylesheet" href="{{ '/assets/bio.css' | relative_url }}">
+{% endif %}

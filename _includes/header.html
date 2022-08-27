@@ -1,0 +1,83 @@
+<nav class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <nav class="site-nav">
+      {% for link in site.data.navigation.main %}
+        {% if link.url contains "http" %}
+          {% assign url = link.url %}
+        {% else %}
+          {% assign url = link.url | relative_url %}
+        {% endif %}
+        <!-- {% if link.image %}
+        <img src="{{ link.image }}">
+        {% endif %} -->
+        <a class="page-link" href="{{ url }}">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+
+  </div>
+
+</nav>
+
+{% if page.navigation %}
+<input type="checkbox" id="ln-menustate" class="ln-menustate" data-original-tabindex="" tabindex="-1" data-original-aria-hidden="" aria-hidden="true">
+<div id="ln-sticky-placeholder" class="css-sticky" data-original-aria-hidden="" aria-hidden="true"></div>
+<nav id="localnav" class="localnav-scrim js no-touch css-sticky" lang="{{ page.lang | default: site.lang | default: "ru" }}" dir="ltr" data-sticky="" data-analytics-region="local nav" role="navigation" aria-label="Локальная версия">
+		<div class="ln-wrapper">
+			<div class="ln-background"></div>
+			<div class="ln-content">
+				<div class="ln-title">
+          <a href="{{ page.navigation.product.url }}">
+            {{ page.navigation.product.title }}
+          </a>
+				</div>
+				<div class="ln-menu">
+					<a href="#ln-menustate" class="ln-menucta-anchor ln-menucta-anchor-open" id="ln-menustate-open" role="button">
+						<span class="ln-menucta-anchor-label">Локальная навигация&nbsp;– Открыть меню</span>
+					</a>
+					<a href="#" class="ln-menucta-anchor ln-menucta-anchor-close" id="ln-menustate-close" role="button">
+						<span class="ln-menucta-anchor-label">Локальная навигация&nbsp;– Закрыть меню</span>
+					</a>
+          {% if page.navigation.menu %}
+					<div class="ln-menu-tray" aria-hidden="true">
+						<ul class="ln-menu-items">
+              {% for item in page.navigation.menu %}
+                <li class="ln-menu-item">
+                  {% if page.url == item.url %}
+                  <span class="ln-menu-link current">{{ item.title }}</span>
+                  {% else %}
+                  {% if item.url contains "http" %}
+                    {% assign url = item.url %}
+                  {% else %}
+                    {% assign url = item.url | relative_url %}
+                  {% endif %}
+                  <a class="ln-menu-link" href="{{ url }}">{{ item.title }}</a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+						</ul>
+					</div>
+          {% endif %}
+					<div class="ln-actions">
+            {% if page.navigation.menu %}
+						<div class="ln-action ln-action-menucta" aria-hidden="true">
+							<label for="ln-menustate" class="ln-menucta">
+								<span class="ln-menucta-chevron"></span>
+							</label>
+						</div>
+            {% endif %}
+            {% if page.navigation.action %}
+            <div class="ln-action ln-action-button">
+							<a class="ln-button" href="{{ page.navigation.action.url }}">{{ page.navigation.action.title }}</a>
+						</div>
+            {% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+  <label id="ln-curtain" for="ln-menustate" data-original-aria-hidden="" aria-hidden="true"></label>
+{% endif %}

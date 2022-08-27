@@ -1,4 +1,21 @@
-**Privacy Policy**
+---
+layout: single
+title: "Incipe - Privacy Policy"
+permalink: /incipe-privacy
+navigation:
+  product:
+    title: "Incipe"
+    url: /incipe
+  menu:
+  - title: "Обзор"
+    url: /incipe
+  - title: "Политика Конфиденциальности"
+    url: /incipe-privacy
+    current: true
+  - title: "Условия Использования"
+    url: /incipe-terms
+---
+# Privacy Policy
 
 The Incipe app as a Free app. This SERVICE is provided by at no cost and is intended for use as is.
 
