@@ -16,9 +16,10 @@
 
 title: Анисимов Василий
 author: Анисимов Василий
-description:
+description: Ведущий iOS разработчик с 10-летним опытом программирования под iOS на Objective-C, Swift и C/C++
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://anivaros.dev" # the base hostname & protocol for your site, e.g. http://example.com
+favicon: /assets/favicon-anivaros
 lang: ru
 timezone: UTC+3
 exclude:
