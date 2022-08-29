@@ -7,8 +7,8 @@
   {% assign canonical = page.url | replace:'index.html','' | absolute_url %}
   {% assign description = page.description | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | escape %}
   <title>{{ title }}</title>
-  <meta name="description" content="{{ title }}">
-  <meta property="og:title" content="{{ description }}">
+  <meta name="description" content="{{ description }}">
+  <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:url" content="{{ canonical }}">
   {% if page.keywords %}
