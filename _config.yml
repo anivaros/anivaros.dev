@@ -20,6 +20,7 @@ description: Ведущий iOS разработчик с 10-летним опы
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://anivaros.dev" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: /assets/favicon-anivaros
+og_image: /assets/og-anivaros
 lang: ru
 timezone: UTC+3
 exclude:

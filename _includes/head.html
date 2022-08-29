@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="robots" content="index,follow">
   {% assign title = page.title | default: site.title | escape %}
   {% assign canonical = page.url | replace:'index.html','' | absolute_url %}
@@ -12,7 +12,9 @@
   <meta property="og:type" content="website">
   <meta property="og:description" content="{{ description }}">
   <meta property="og:url" content="{{ canonical }}">
-  <meta property="og:image" content="/assets/og.png">
+  {% assign og_image = page.og_image | default: site.og_image | escape %}
+  <meta property="og:image" content="{{ site.url }}{{ og_image }}.png">
+  <meta property="og:locale" content="{{ page.lang | default: site.lang | default: "ru" }}">
   {% if page.keywords %}
     {% if page.keywords.first %}
       {% assign keywords = page.keywords | join: ',' %}
