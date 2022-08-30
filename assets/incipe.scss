@@ -2123,41 +2123,40 @@ br.small {
 
 @media only screen and (max-width: 735px) {
     .module-1-up-base .section-content {
-        padding-top: 48px;
-        padding-bottom:60px
+        padding-top: 48px
     }
 }
 
 .module-1-up-base + section {
-    margin-top:140px
+    margin-top: 50px
 }
 
 @media only screen and (max-width: 1068px) {
     .module-1-up-base + section {
-        margin-top:130px
+        margin-top: 40px
     }
 }
 
 @media only screen and (max-width: 735px) {
     .module-1-up-base + section {
-        margin-top:32px
+        margin-top: 22px
     }
 }
 
 .module-1-up-base .image-headline {
     width: 980px;
-    height:600px
+    height: 600px
 }
 
 @media only screen and (max-width: 735px) {
     .module-1-up-base .image-headline {
         width: 276px;
-        height:200px
+        height: 200px
     }
 }
 
 .module-1-up-base .typography-eyebrow-super {
-    margin-top:10px
+    margin-top: 10px
 }
 
 .module-1-up-base .typography-intro {
@@ -2215,7 +2214,7 @@ br.small {
 
 @media only screen and (max-width: 735px) {
     .module-river-base-left + section {
-        margin-top:92px
+        margin-top:40px
     }
 }
 
@@ -2225,7 +2224,7 @@ br.small {
 
 @media only screen and (max-width: 735px) {
     .module-river-base-left + .module-river-base-left {
-        margin-top:56px
+        margin-top:40px
     }
 }
 
@@ -2319,7 +2318,7 @@ br.small {
 
 @media only screen and (max-width: 735px) {
     .module-1-up-callout-centered .section-content {
-        padding-bottom:48px
+        padding-bottom: 85px
     }
 }
 
@@ -2410,12 +2409,6 @@ br.small {
     background-image: url("/assets/Icon.svg")
 }
 
-// @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
-//     .section-hero .image-chiclet {
-//         background-image: url("/v/apple-books/b/images/overview/icon_books_large_2x.png")
-//     }
-// }
-
 @media only screen and (max-width: 1068px) {
     .section-hero .image-chiclet {
         width: 80px;
@@ -2425,13 +2418,6 @@ br.small {
         background-image: url("/assets/Icon.svg")
     }
 }
-
-// @media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
-//     .section-hero .image-chiclet {
-//         background-image: url("/v/apple-books/b/images/overview/icon_books_medium_2x.png")
-//     }
-// }
-
 @media only screen and (max-width: 735px) {
     .section-hero .image-chiclet {
         width: 66px;
@@ -2441,12 +2427,6 @@ br.small {
         background-image: url("/assets/Icon.svg")
     }
 }
-
-// @media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
-//     .section-hero .image-chiclet {
-//         background-image: url("/v/apple-books/b/images/overview/icon_books_small_2x.png")
-//     }
-// }
 
 .section-hero .image-headline {
     width: 769px;
@@ -2493,98 +2473,6 @@ br.small {
         background-image: url("/assets/image-headline-small_2x.png")
     }
 }
-
-// .section-hero .image-headline-alt {
-//     width: 984px;
-//     height: 647px;
-//     background-size: 984px 647px;
-//     background-repeat: no-repeat;
-//     background-image: url("/v/apple-books/b/images/overview/hero_alt_large.jpg")
-// }
-//
-// @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
-//     .section-hero .image-headline-alt {
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_large_2x.jpg")
-//     }
-// }
-//
-// @media only screen and (max-width: 1068px) {
-//     .section-hero .image-headline-alt {
-//         width: 709px;
-//         height: 466px;
-//         background-size: 709px 466px;
-//         background-repeat: no-repeat;
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_medium.jpg")
-//     }
-// }
-//
-// @media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
-//     .section-hero .image-headline-alt {
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_medium_2x.jpg")
-//     }
-// }
-//
-// @media only screen and (max-width: 735px) {
-//     .section-hero .image-headline-alt {
-//         width: 276px;
-//         height: 381px;
-//         background-size: 276px 381px;
-//         background-repeat: no-repeat;
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_small.jpg")
-//     }
-// }
-//
-// @media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
-//     .section-hero .image-headline-alt {
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_small_2x.jpg")
-//     }
-// }
-//
-// .section-hero .image-headline-alt-alt {
-//     width: 769px;
-//     height: 646px;
-//     background-size: 769px 646px;
-//     background-repeat: no-repeat;
-//     background-image: url("/v/apple-books/b/images/overview/hero_alt_alt_large.jpg")
-// }
-//
-// @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
-//     .section-hero .image-headline-alt-alt {
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_alt_large_2x.jpg")
-//     }
-// }
-//
-// @media only screen and (max-width: 1068px) {
-//     .section-hero .image-headline-alt-alt {
-//         width: 554px;
-//         height: 465px;
-//         background-size: 554px 465px;
-//         background-repeat: no-repeat;
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_alt_medium.jpg")
-//     }
-// }
-//
-// @media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
-//     .section-hero .image-headline-alt-alt {
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_alt_medium_2x.jpg")
-//     }
-// }
-//
-// @media only screen and (max-width: 735px) {
-//     .section-hero .image-headline-alt-alt {
-//         width: 275px;
-//         height: 358px;
-//         background-size: 275px 358px;
-//         background-repeat: no-repeat;
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_alt_small.jpg")
-//     }
-// }
-//
-// @media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
-//     .section-hero .image-headline-alt-alt {
-//         background-image: url("/v/apple-books/b/images/overview/hero_alt_alt_small_2x.jpg")
-//     }
-// }
 
 .section-hero .typography-headline-super {
     max-width:740px
@@ -2652,12 +2540,6 @@ html.ie .section-hero .wrapper {
 @media only screen and (max-width: 735px) {
     .section-hero .wrapper .typography-intro-elevated {
         margin-top:60px
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    .section-hero .wrapper figure {
-        margin-top:0
     }
 }
 
@@ -2795,144 +2677,6 @@ html.ie .section-hero .wrapper {
 
 @media only screen and (max-width: 735px) {
     .section-save .image-headline {
-        margin-top:18px
-    }
-}
-
-.section-books .image-headline {
-    width: 438px;
-    height: 764px;
-    background-size: 438px 764px;
-    background-repeat: no-repeat;
-    background-image: url("/v/apple-books/b/images/overview/books_large.jpg");
-    position: relative;
-    left: 50%;
-    margin-left:-219px
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
-    .section-books .image-headline {
-        background-image: url("/v/apple-books/b/images/overview/books_large_2x.jpg")
-    }
-}
-
-@media only screen and (max-width: 1068px) {
-    .section-books .image-headline {
-        width: 316px;
-        height: 551px;
-        background-size: 316px 551px;
-        background-repeat: no-repeat;
-        background-image: url("/v/apple-books/b/images/overview/books_medium.jpg")
-    }
-}
-
-@media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
-    .section-books .image-headline {
-        background-image: url("/v/apple-books/b/images/overview/books_medium_2x.jpg")
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    .section-books .image-headline {
-        width: 292px;
-        height: 510px;
-        background-size: 292px 510px;
-        background-repeat: no-repeat;
-        background-image: url("/v/apple-books/b/images/overview/books_small.jpg")
-    }
-}
-
-@media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
-    .section-books .image-headline {
-        background-image: url("/v/apple-books/b/images/overview/books_small_2x.jpg")
-    }
-}
-
-@media only screen and (max-width: 1068px) {
-    .section-books .image-headline {
-        left: 50%;
-        margin-left:-158px
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    .section-books .image-headline {
-        left: 50%;
-        margin-left:-146px
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    .section-books .image-headline {
-        margin-top:18px
-    }
-}
-
-.section-audiobooks .image-headline {
-    width: 438px;
-    height: 764px;
-    background-size: 438px 764px;
-    background-repeat: no-repeat;
-    background-image: url("/v/apple-books/b/images/overview/audiobooks_large.jpg");
-    position: relative;
-    left: 50%;
-    margin-left:-219px
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
-    .section-audiobooks .image-headline {
-        background-image: url("/v/apple-books/b/images/overview/audiobooks_large_2x.jpg")
-    }
-}
-
-@media only screen and (max-width: 1068px) {
-    .section-audiobooks .image-headline {
-        width: 316px;
-        height: 551px;
-        background-size: 316px 551px;
-        background-repeat: no-repeat;
-        background-image: url("/v/apple-books/b/images/overview/audiobooks_medium.jpg")
-    }
-}
-
-@media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
-    .section-audiobooks .image-headline {
-        background-image: url("/v/apple-books/b/images/overview/audiobooks_medium_2x.jpg")
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    .section-audiobooks .image-headline {
-        width: 292px;
-        height: 510px;
-        background-size: 292px 510px;
-        background-repeat: no-repeat;
-        background-image: url("/v/apple-books/b/images/overview/audiobooks_small.jpg")
-    }
-}
-
-@media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
-    .section-audiobooks .image-headline {
-        background-image: url("/v/apple-books/b/images/overview/audiobooks_small_2x.jpg")
-    }
-}
-
-@media only screen and (max-width: 1068px) {
-    .section-audiobooks .image-headline {
-        left: 50%;
-        margin-left:-158px
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    .section-audiobooks .image-headline {
-        left: 50%;
-        margin-left:-146px
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    .section-audiobooks .image-headline {
         margin-top:18px
     }
 }
@@ -3097,58 +2841,12 @@ html.ie .section-hero .wrapper {
 }
 
 .section-sync .typography-headline {
-    margin-top:15px
+    margin-top: 15px
 }
 
-.section-sell .image-chiclet {
-    width: 82px;
-    height: 82px;
-    background-size: 82px 82px;
-    background-repeat: no-repeat;
-    background-image: url("/v/apple-books/b/images/overview/icon_books_large.png")
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
-    .section-sell .image-chiclet {
-        background-image: url("/v/apple-books/b/images/overview/icon_books_large_2x.png")
-    }
-}
-
-@media only screen and (max-width: 1068px) {
-    .section-sell .image-chiclet {
-        width: 59px;
-        height: 59px;
-        background-size: 59px 59px;
-        background-repeat: no-repeat;
-        background-image: url("/v/apple-books/b/images/overview/icon_books_medium.png")
-    }
-}
-
-@media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
-    .section-sell .image-chiclet {
-        background-image: url("/v/apple-books/b/images/overview/icon_books_medium_2x.png")
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    .section-sell .image-chiclet {
-        width: 46px;
-        height: 46px;
-        background-size: 46px 46px;
-        background-repeat: no-repeat;
-        background-image: url("/v/apple-books/b/images/overview/icon_books_small.png")
-    }
-}
-
-@media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
-    .section-sell .image-chiclet {
-        background-image: url("/v/apple-books/b/images/overview/icon_books_small_2x.png")
-    }
-}
-
-.section-hero .button-super {
-    padding-left: 30px;
-    padding-right: 30px;
+.button-super {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #localnav .ln-action-button .ln-button {
@@ -3159,40 +2857,45 @@ html.ie .section-hero .wrapper {
   background: var(--hover-orange);
 }
 
-.section-hero .hero-button {
+.hero-button {
     background: var(--orange);
     color: #fff;
-    margin-top: 28px
+    margin-top: 28px;
+    border-radius: 41px;
 }
 
-.section-hero .hero-button:hover {
+.hero-button:visited {
+    color: #fff;
+}
+
+.hero-button:hover {
     background: var(--hover-orange)
 }
 
-.section-hero .hero-button:active {
+.hero-button:active {
     background: var(--orange)
 }
 
-.section-hero .hero-button.disabled, .section-hero .hero-button:disabled {
+.hero-button.disabled, .hero-button:disabled {
     background: var(--orange);
     color: #fff;
     opacity: .32
 }
 
 @media only screen and (max-width: 1068px) {
-    .section-hero .hero-button {
+    .hero-button {
         margin-top: 24px
     }
 }
 
 @media only screen and (max-width: 734px) {
-    .section-hero .hero-button {
+    .hero-button {
         margin-top: 25px
     }
 }
 
 @media only screen and (max-width: 1068px) {
-    .section-hero .hero-button {
+    .hero-button {
         font-size: 17px;
         line-height: 1.1764805882;
         font-weight: 400;
@@ -3202,42 +2905,56 @@ html.ie .section-hero .wrapper {
         padding: 12px 22px
     }
 
-    .section-hero .hero-button:lang(ar) {
+    .hero-button:lang(ar) {
         letter-spacing: 0em;
         font-family: SF Pro AR, SF Pro Gulf, SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
     }
 
-    .section-hero .hero-button:lang(ja) {
+    .hero-button:lang(ja) {
         letter-spacing: 0em;
         font-family: SF Pro JP, SF Pro Text, SF Pro Icons, Hiragino Kaku Gothic Pro, ヒラギノ角ゴ Pro W3, メイリオ, Meiryo, ＭＳ Ｐゴシック, Helvetica Neue, Helvetica, Arial, sans-serif
     }
 
-    .section-hero .hero-button:lang(ko) {
+    .hero-button:lang(ko) {
         letter-spacing: 0em;
         font-family: SF Pro KR, SF Pro Text, SF Pro Icons, Apple Gothic, HY Gulim, MalgunGothic, HY Dotum, Lexi Gulim, Helvetica Neue, Helvetica, Arial, sans-serif
     }
 
-    .section-hero .hero-button:lang(zh) {
+    .hero-button:lang(zh) {
         letter-spacing: 0em
     }
 
-    .section-hero .hero-button:lang(th) {
+    .hero-button:lang(th) {
         font-family: SF Pro TH, SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif
     }
 
-    .section-hero .hero-button:lang(zh-CN) {
+    .hero-button:lang(zh-CN) {
         font-family: SF Pro SC, SF Pro Text, SF Pro Icons, PingFang SC, Helvetica Neue, Helvetica, Arial, sans-serif
     }
 
-    .section-hero .hero-button:lang(zh-HK) {
+    .hero-button:lang(zh-HK) {
         font-family: SF Pro HK, SF Pro Text, SF Pro Icons, PingFang HK, Helvetica Neue, Helvetica, Arial, sans-serif
     }
 
-    .section-hero .hero-button:lang(zh-MO) {
+    .hero-button:lang(zh-MO) {
         font-family: SF Pro HK, SF Pro TC, SF Pro Text, SF Pro Icons, PingFang HK, Helvetica Neue, Helvetica, Arial, sans-serif
     }
 
-    .section-hero .hero-button:lang(zh-TW) {
+    .hero-button:lang(zh-TW) {
         font-family: SF Pro TC, SF Pro Text, SF Pro Icons, PingFang TC, Helvetica Neue, Helvetica, Arial, sans-serif
     }
+}
+
+.hero-button .hero-qr {
+  width: 195px;
+  height: 195px;
+  background-size: 195px;
+  background-repeat: no-repeat;
+  background-image: url(/assets/app-store-link-white.svg);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+html.ios .hero-qr {
+  display: none;
 }

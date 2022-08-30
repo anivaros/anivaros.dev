@@ -4,18 +4,32 @@
 
 .page-bio .section-hero {
     position: relative;
-    padding-top:106px
+    padding-top:106px;
+    min-height: 336px;
+}
+
+.page-bio .section-hero .image-hero-container {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#fafafa));
+    background: -webkit-linear-gradient(top, #eaeaea 0%, #fafafa 100%);
+    background: linear-gradient(to bottom, #eaeaea 0%, #fafafa 100%);
 }
 
 @media only screen and (max-width: 1068px) {
     .page-bio .section-hero {
-        padding-top:102px
+        padding-top: 102px
     }
 }
 
 @media only screen and (max-width: 735px) {
     .page-bio .section-hero {
-        padding-top:12px
+        padding-top: 0
     }
 }
 
@@ -122,7 +136,7 @@
 
 @media only screen and (max-width: 1068px) {
     .page-bio .section-hero .image-hero {
-        background-position:285px 100%
+        background-position: 285px 100%
     }
 }
 

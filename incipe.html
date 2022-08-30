@@ -12,7 +12,7 @@ navigation:
     url: /incipe
   action:
     title: "Загрузите в App Store"
-    url: https://apps.apple.com/app/apple-store/id1575544584?pt=123263036&ct=app_download&mt=8&ct=utm_source:website_anivaros,utm_medium:page_incipe,utm_campaign:app_download
+    url: https://apps.apple.com/ru/app/apple-store/id1575544584?pt=123263036&ct=landing_page&mt=8&ct=utm_source:website_anivaros,utm_medium:page_incipe,utm_campaign:landing_page
 ---
 <section class="section section-hero module-1-up-super" data-analytics-section-engagement="name:hero">
   <div class="section-content">
@@ -21,7 +21,10 @@ navigation:
     <h2 class="typography-headline-super">Книга ваших рецептов</h2>
     <div class="wrapper">
       <p class="typography-intro-elevated">Incipe поможет организовать хранение рецептов на ваших iPhone и iPad, создать библиотеку из тех рецептов, которые интересны именно вам. Категории помогут навести порядок и всегда держать нужные рецепты под рукой. Создавайте собственные категории, чтобы всё необходимое было в быстром доступе.</p>
-      <a class="hero-button button button-super typography-title-semibold" href="{{ page.navigation.action.url }}">{{ page.navigation.action.title }}</a>
+      <a class="hero-button button button-super typography-title-semibold" href="{{ page.navigation.action.url }}">
+        <figure class="image hero-qr"></figure>
+        {{ page.navigation.action.title }}
+      </a>
       <figure class="image image-headline image-headline"></figure>
     </div>
   </div>
@@ -65,4 +68,12 @@ navigation:
     <p class="typography-intro large-9 medium-12 small-12">Все рецепты автоматически синхронизируются между вашими iPhone и iPad</p>
     <figure class="image image-headline"></figure>
   </div>
+</section>
+<section class="section section-download module-1-up-callout-centered" data-analytics-section-engagement="name:download">
+	<div class="section-content">
+    <a class="hero-button button button-super typography-title-semibold" href="{{ page.navigation.action.url }}">
+      <figure class="image hero-qr"></figure>
+      {{ page.navigation.action.title }}
+    </a>
+	</div>
 </section>

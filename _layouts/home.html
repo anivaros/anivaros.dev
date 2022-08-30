@@ -9,27 +9,12 @@ layout: default
   {% capture site_lang %}{{ site.lang | default: "ru" }}{% endcapture %}
 
   <style type="text/css">
-          .page-bio .section-hero {
-              min-height: 336px;
-          }
-          .page-bio .section-hero .image-hero-container {
-              /* position: absolute;
-              z-index: 1;
-              top: 0;
-              bottom: 0;
-              left: 0;
-              width: 100%; */
-              overflow: hidden;
-              background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#fafafa));
-              background: -webkit-linear-gradient(top, #eaeaea 0%, #fafafa 100%);
-              background: linear-gradient(to bottom, #eaeaea 0%, #fafafa 100%);
-          }
-          @media only screen and (max-width: 1068px) {
+          @media only screen and (max-width: $on-medium) {
               .page-bio .section-hero {
               min-height: 313px;
                }
           }
-          @media only screen and (max-width: 735px) {
+          @media only screen and (max-width: $on-small) {
               .page-bio .section-hero {
                   min-height: auto;
               }
@@ -48,23 +33,23 @@ layout: default
                       background-image: url(/assets/vasiliy-anisimov_2x.png);
                   }
           }
-          @media only screen and (max-width: 1068px) {
+          @media only screen and (max-width: $on-medium) {
               .page-bio .section-hero .image-hero {
                   background-image: url(/assets/vasiliy-anisimov-medium.png);
                   height: 313px;
                   background-size: 414px 313px;
               }
           }
-          @media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
-                  only screen and (max-width: 1068px) and (min-resolution: 144dpi),
-                  only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 144),
-                  only screen and (max-width: 1068px) and (min-resolution: 144dppx) {
+          @media only screen and (max-width: $on-medium) and (-webkit-min-device-pixel-ratio: 1.5),
+                  only screen and (max-width: $on-medium) and (min-resolution: 144dpi),
+                  only screen and (max-width: $on-medium) and (-webkit-min-device-pixel-ratio: 144),
+                  only screen and (max-width: $on-medium) and (min-resolution: 144dppx) {
                   .page-bio .section-hero .image-hero {
                       background-image: url(/assets/vasiliy-anisimov-medium_2x.png);
                   }
           }
 
-           @media only screen and (max-width: 735px) {
+           @media only screen and (max-width: $on-small) {
                   .page-bio .section-hero .image-hero {
                       background-image: url(/assets/vasiliy-anisimov-small.png);
                       height: 220px;
@@ -72,10 +57,10 @@ layout: default
                   }
           }
 
-          @media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5),
-                  only screen and (max-width: 735px) and (min-resolution: 144dpi),
-                  only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 144),
-                  only screen and (max-width: 735px) and (min-resolution: 144dppx) {
+          @media only screen and (max-width: $on-small) and (-webkit-min-device-pixel-ratio: 1.5),
+                  only screen and (max-width: $on-small) and (min-resolution: 144dpi),
+                  only screen and (max-width: $on-small) and (-webkit-min-device-pixel-ratio: 144),
+                  only screen and (max-width: $on-small) and (min-resolution: 144dppx) {
                   .page-bio .section-hero .image-hero {
                       background-image: url(/assets/vasiliy-anisimov-small_2x.png);
                   }
