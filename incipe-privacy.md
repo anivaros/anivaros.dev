@@ -1,7 +1,8 @@
 ---
 layout: single
-title: "Incipe - Privacy Policy"
+title: titles.incipe-privacy
 permalink: /incipe-privacy
+languages: ["ru"]
 navigation:
   product:
     title: "Incipe"

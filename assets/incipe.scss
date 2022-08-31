@@ -1,4 +1,5 @@
 ---
+languages: ["ru"]
 ---
 @charset "utf-8";
 
@@ -2406,7 +2407,7 @@ br.small {
     height: 110px;
     background-size: 110px 110px;
     background-repeat: no-repeat;
-    background-image: url("/assets/Icon.svg")
+    background-image: url({{ '/assets/Icon.svg' | relative_url }})
 }
 
 @media only screen and (max-width: 1068px) {
@@ -2415,7 +2416,7 @@ br.small {
         height: 80px;
         background-size: 80px 80px;
         background-repeat: no-repeat;
-        background-image: url("/assets/Icon.svg")
+        background-image: url({{ '/assets/Icon.svg' | relative_url }})
     }
 }
 @media only screen and (max-width: 735px) {
@@ -2424,7 +2425,7 @@ br.small {
         height: 66px;
         background-size: 66px 66px;
         background-repeat: no-repeat;
-        background-image: url("/assets/Icon.svg")
+        background-image: url({{ '/assets/Icon.svg' | relative_url }})
     }
 }
 
@@ -2433,12 +2434,12 @@ br.small {
     height: 657px;
     background-size: 769px 657px;
     background-repeat: no-repeat;
-    background-image: url("/assets/image-headline.png")
+    background-image: url({{ '/assets/image-headline.png' | relative_url }})
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-hero .image-headline {
-        background-image: url("/assets/image-headline_2x.png")
+        background-image: url({{ '/assets/image-headline_2x.png' | relative_url }})
     }
 }
 
@@ -2448,13 +2449,13 @@ br.small {
         height: 474px;
         background-size: 555px 474px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-headline-medium.png")
+        background-image: url({{ '/assets/image-headline-medium.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
     .section-hero .image-headline {
-        background-image: url("/assets/image-headline-medium_2x.png")
+        background-image: url({{ '/assets/image-headline-medium_2x.png' | relative_url }})
     }
 }
 
@@ -2464,13 +2465,13 @@ br.small {
         height: 315px;
         background-size: 245px 315px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-headline-small.png")
+        background-image: url({{ '/assets/image-headline-small.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
     .section-hero .image-headline {
-        background-image: url("/assets/image-headline-small_2x.png")
+        background-image: url({{ '/assets/image-headline-small_2x.png' | relative_url }})
     }
 }
 
@@ -2548,7 +2549,7 @@ html.ie .section-hero .wrapper {
     height: 764px;
     background-size: 438px 764px;
     background-repeat: no-repeat;
-    background-image: url("/assets/image-section-search.png");
+    background-image: url({{ '/assets/image-section-search.png' | relative_url }});
     position: relative;
     left: 50%;
     margin-left:-219px
@@ -2556,7 +2557,7 @@ html.ie .section-hero .wrapper {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-search .image-headline {
-        background-image: url("/assets/image-section-search_2x.png")
+        background-image: url({{ '/assets/image-section-search_2x.png' | relative_url }})
     }
 }
 
@@ -2566,13 +2567,13 @@ html.ie .section-hero .wrapper {
         height: 551px;
         background-size: 316px 551px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-section-search-medium.png")
+        background-image: url({{ '/assets/image-section-search-medium.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
     .section-search .image-headline {
-        background-image: url("/assets/image-section-search-medium_2x.png")
+        background-image: url({{ '/assets/image-section-search-medium_2x.png' | relative_url }})
     }
 }
 
@@ -2582,13 +2583,13 @@ html.ie .section-hero .wrapper {
         height: 510px;
         background-size: 292px 510px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-section-search-small.png")
+        background-image: url({{ '/assets/image-section-search-small.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
     .section-search .image-headline {
-        background-image: url("/assets/image-section-search-small_2x.png")
+        background-image: url({{ '/assets/image-section-search-small_2x.png' | relative_url }})
     }
 }
 
@@ -2617,7 +2618,7 @@ html.ie .section-hero .wrapper {
     height: 764px;
     background-size: 438px 764px;
     background-repeat: no-repeat;
-    background-image: url("/assets/image-section-save.png");
+    background-image: url({{ '/assets/image-section-save.png' | relative_url }});
     position: relative;
     left: 50%;
     margin-left:-219px
@@ -2625,7 +2626,7 @@ html.ie .section-hero .wrapper {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-save .image-headline {
-        background-image: url("/assets/image-section-save_2x.png")
+        background-image: url({{ '/assets/image-section-save_2x.png' | relative_url }})
     }
 }
 
@@ -2635,13 +2636,13 @@ html.ie .section-hero .wrapper {
         height: 551px;
         background-size: 316px 551px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-section-save-medium.png")
+        background-image: url({{ '/assets/image-section-save-medium.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
     .section-save .image-headline {
-        background-image: url("/assets/image-section-save-medium_2x.png")
+        background-image: url({{ '/assets/image-section-save-medium_2x.png' | relative_url }})
     }
 }
 
@@ -2651,13 +2652,13 @@ html.ie .section-hero .wrapper {
         height: 510px;
         background-size: 292px 510px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-section-save-small.png")
+        background-image: url({{ '/assets/image-section-save-small.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
     .section-save .image-headline {
-        background-image: url("/assets/image-section-save-small_2x.png")
+        background-image: url({{ '/assets/image-section-save-small_2x.png' | relative_url }})
     }
 }
 
@@ -2686,7 +2687,7 @@ html.ie .section-hero .wrapper {
     height: 764px;
     background-size: 438px 764px;
     background-repeat: no-repeat;
-    background-image: url("/assets/image-section-edit.png");
+    background-image: url({{ '/assets/image-section-edit.png' | relative_url }});
     position: relative;
     left: 50%;
     margin-left:-219px
@@ -2694,7 +2695,7 @@ html.ie .section-hero .wrapper {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-edit .image-headline {
-        background-image: url("/assets/image-section-edit_2x.png")
+        background-image: url({{ '/assets/image-section-edit_2x.png' | relative_url }})
     }
 }
 
@@ -2704,13 +2705,13 @@ html.ie .section-hero .wrapper {
         height: 551px;
         background-size: 316px 551px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-section-edit-medium.png")
+        background-image: url({{ '/assets/image-section-edit-medium.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
     .section-edit .image-headline {
-        background-image: url("/assets/image-section-edit-medium_2x.png")
+        background-image: url({{ '/assets/image-section-edit-medium_2x.png' | relative_url }})
     }
 }
 
@@ -2720,13 +2721,13 @@ html.ie .section-hero .wrapper {
         height: 510px;
         background-size: 292px 510px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-section-edit-small.png")
+        background-image: url({{ '/assets/image-section-edit-small.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
     .section-edit .image-headline {
-        background-image: url("/assets/image-section-edit-small_2x.png")
+        background-image: url({{ '/assets/image-section-edit-small_2x.png' | relative_url }})
     }
 }
 
@@ -2759,7 +2760,7 @@ html.ie .section-hero .wrapper {
     height: 572px;
     background-size: 880px 572px;
     background-repeat: no-repeat;
-    background-image: url("/assets/image-section-sync.png");
+    background-image: url({{ '/assets/image-section-sync.png' | relative_url }});
     position: relative;
     left: 50%;
     margin-left: -440px;
@@ -2768,7 +2769,7 @@ html.ie .section-hero .wrapper {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-sync .image-headline {
-        background-image: url("/assets/image-section-sync_2x.png")
+        background-image: url({{ '/assets/image-section-sync_2x.png' | relative_url }})
     }
 }
 
@@ -2778,13 +2779,13 @@ html.ie .section-hero .wrapper {
         height: 413px;
         background-size: 635px 413px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-section-sync-medium.png")
+        background-image: url({{ '/assets/image-section-sync-medium.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
     .section-sync .image-headline {
-        background-image: url("/assets/image-section-sync-medium_2x.png")
+        background-image: url({{ '/assets/image-section-sync-medium_2x.png' | relative_url }})
     }
 }
 
@@ -2794,13 +2795,13 @@ html.ie .section-hero .wrapper {
         height: 322px;
         background-size: 278px 322px;
         background-repeat: no-repeat;
-        background-image: url("/assets/image-section-sync-small.png")
+        background-image: url({{ '/assets/image-section-sync-small.png' | relative_url }})
     }
 }
 
 @media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
     .section-sync .image-headline {
-        background-image: url("/assets/image-section-sync-small_2x.png")
+        background-image: url({{ '/assets/image-section-sync-small_2x.png' | relative_url }})
     }
 }
 
@@ -2950,7 +2951,7 @@ html.ie .section-hero .wrapper {
   height: 195px;
   background-size: 195px;
   background-repeat: no-repeat;
-  background-image: url(/assets/app-store-link-white.svg);
+  background-image: url({{ '/assets/app-store-link-white.svg' | relative_url }});
   margin-top: 5px;
   margin-bottom: 10px
 }
