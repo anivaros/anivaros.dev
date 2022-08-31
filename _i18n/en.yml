@@ -1,0 +1,18 @@
+global:
+  tagline: English
+  author: Vasiliy Anisimov
+  rights: All rights reserved
+langs:
+  ru: Русский
+  en: English
+titles:
+  home: "Vasiliy Anisimov"
+  incipe: "Incipe"
+descriptions:
+  home: "Principal Software Engineer and iOS developer"
+  incipe: "Incipe is an interactive book of your favorite recipes. Add recipes to your iPhone and iPad using automatic import from your favorite cooking sites, or manually. The app is available for iOS and iPadOS"
+keywords:
+  home: ""
+  incipe: "recipes, recipe book, cookbook, recipe storage, home recipes, cook, recipe manager, recipe organizer, save recipe, save recipes, ios, ipados, macos"
+actions:
+  incipe: "Soon on the App Store"

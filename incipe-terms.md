@@ -1,18 +1,19 @@
 ---
 layout: single
-title: "Incipe - Terms & Conditions"
+title: titles.incipe-terms
 permalink: /incipe-terms
+languages: ["ru"]
 navigation:
   product:
     title: "Incipe"
     url: /incipe
   menu:
-  - title: "Обзор"
+  - title: "Overview"
     url: /incipe
-  - title: "Политика Конфиденциальности"
+  - title: "Privacy Policy"
     url: /incipe-privacy
     current: true
-  - title: "Условия Использования"
+  - title: "Terms & Conditions"
     url: /incipe-terms
 ---
 # Terms & Conditions

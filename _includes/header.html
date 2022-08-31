@@ -2,18 +2,15 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ '/' | prepend: site.baseurl }}">{% t global.author %}</a>
 
     <nav class="site-nav">
       {% for link in site.data.navigation.main %}
         {% if link.url contains "http" %}
           {% assign url = link.url %}
         {% else %}
-          {% assign url = link.url | relative_url %}
+          {% assign url = link.url | prepend: site.baseurl %}
         {% endif %}
-        <!-- {% if link.image %}
-        <img src="{{ link.image }}">
-        {% endif %} -->
         <a class="page-link" href="{{ url }}">{{ link.title }}</a>
       {% endfor %}
     </nav>
@@ -30,7 +27,7 @@
 			<div class="ln-background"></div>
 			<div class="ln-content">
 				<div class="ln-title">
-          <a href="{{ page.navigation.product.url }}">
+          <a href="{{ page.navigation.product.url | relative_url }}">
             {{ page.navigation.product.title }}
           </a>
 				</div>
@@ -52,7 +49,7 @@
                   {% if item.url contains "http" %}
                     {% assign url = item.url %}
                   {% else %}
-                    {% assign url = item.url | relative_url %}
+                    {% assign url = item.url | prepend: site.baseurl %}
                   {% endif %}
                   <a class="ln-menu-link" href="{{ url }}">{{ item.title }}</a>
                   {% endif %}
@@ -71,7 +68,7 @@
             {% endif %}
             {% if page.navigation.action %}
             <div class="ln-action ln-action-button">
-							<a class="ln-button" href="{{ page.navigation.action.url }}">{{ page.navigation.action.title }}</a>
+							<a class="ln-button" href="{{ page.navigation.action.url }}">{% t page.navigation.action.title %}</a>
 						</div>
             {% endif %}
 					</div>
