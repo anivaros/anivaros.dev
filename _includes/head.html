@@ -5,7 +5,7 @@
   <meta name="robots" content="index,follow">
   {% capture page_title %}{% t page.title %}{% endcapture %}
   {% assign title = page_title | default: site.title | escape %}
-  {% assign canonical = page.url | replace:'index.html','' | absolute_url %}
+  {% assign canonical = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
   {% if page.description %}
   {% capture page_description %}{% t page.description %}{% endcapture %}
   {% endif %}
