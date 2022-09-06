@@ -17,4 +17,6 @@ keywords:
   home: ""
   incipe: "рецепты, книга рецептов, кулинарная книга, хранение рецептов, домашние рецепты, повар, менеджер рецептов, органайзер рецептов, сохранить рецепт, сохранить рецепты, iOS, iPadOS, macOS"
 actions:
-  incipe: "Загрузите в App Store"
+  incipe:
+    title: "Загрузите в App Store"
+    url: "https://apps.apple.com/ru/app/apple-store/id1575544584?pt=123263036&ct=landing_page&mt=8&ct=utm_source:website_anivaros,utm_medium:page_incipe,utm_campaign:landing_page"

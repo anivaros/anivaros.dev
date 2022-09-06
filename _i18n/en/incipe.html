@@ -1,3 +1,11 @@
+<style type="text/css">
+  .hero-button .hero-qr {
+    background-image: url('/assets/en/app-store-link-white.svg');
+    width: 220px;
+    height: 220px;
+    background-size: 220px;
+  }
+</style>
 <section class="section section-hero module-1-up-super" data-analytics-section-engagement="name:hero">
   <div class="section-content">
     <figure class="image image-chiclet"></figure>
@@ -5,8 +13,8 @@
     <h2 class="typography-headline-super">Your personal cookbook</h2>
     <div class="wrapper">
       <p class="typography-intro-elevated">Incipe will help you organize the storage of recipes on your iPhone and iPad, create a library of those recipes that are interesting to you. With categories, every one of your recipes is right where you want it. Create your own categories and get to them easily at any time. </p>
-      <a class="hero-button button button-super typography-title-semibold" href="{{ page.navigation.action.url }}" disabled>
-        <!-- <figure class="image hero-qr"></figure> -->
+      <a class="hero-button button button-super typography-title-semibold" href="{% t page.navigation.action.url %}" disabled>
+        <figure class="image hero-qr"></figure>
         {% t page.navigation.action.title %}
       </a>
       <figure class="image image-headline image-headline"></figure>
@@ -55,8 +63,8 @@
 </section>
 <section class="section section-download module-1-up-callout-centered" data-analytics-section-engagement="name:download">
 	<div class="section-content">
-    <a class="hero-button button button-super typography-title-semibold" href="{{ page.navigation.action.url }}">
-      <!-- <figure class="image hero-qr"></figure> -->
+    <a class="hero-button button button-super typography-title-semibold" href="{% t page.navigation.action.url %}">
+      <figure class="image hero-qr"></figure>
       {% t page.navigation.action.title %}
     </a>
 	</div>

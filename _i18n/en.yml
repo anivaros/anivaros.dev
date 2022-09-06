@@ -15,4 +15,6 @@ keywords:
   home: ""
   incipe: "recipes, recipe book, cookbook, recipe storage, home recipes, cook, recipe manager, recipe organizer, save recipe, save recipes, ios, ipados, macos"
 actions:
-  incipe: "Soon on the App Store"
+  incipe:
+    title: "Download on the App Store"
+    url: "https://apps.apple.com/app/apple-store/id1575544584?pt=123263036&ct=landing_page&mt=8&ct=utm_source:website_anivaros,utm_medium:page_incipe,utm_campaign:landing_page"

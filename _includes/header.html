@@ -68,7 +68,7 @@
             {% endif %}
             {% if page.navigation.action %}
             <div class="ln-action ln-action-button">
-							<a class="ln-button" href="{{ page.navigation.action.url }}">{% t page.navigation.action.title %}</a>
+							<a class="ln-button" href="{% t page.navigation.action.url %}">{% t page.navigation.action.title %}</a>
 						</div>
             {% endif %}
 					</div>
