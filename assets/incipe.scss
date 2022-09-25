@@ -2437,7 +2437,7 @@ br.small {
     background-image: url({{ '/assets/image-headline.png' | relative_url }})
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-hero .image-headline {
         background-image: url({{ '/assets/image-headline_2x.png' | relative_url }})
     }
@@ -2453,7 +2453,7 @@ br.small {
     }
 }
 
-@media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .section-hero .image-headline {
         background-image: url({{ '/assets/image-headline-medium_2x.png' | relative_url }})
     }
@@ -2469,7 +2469,7 @@ br.small {
     }
 }
 
-@media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .section-hero .image-headline {
         background-image: url({{ '/assets/image-headline-small_2x.png' | relative_url }})
     }
@@ -2555,7 +2555,7 @@ html.ie .section-hero .wrapper {
     margin-left:-219px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-search .image-headline {
         background-image: url({{ '/assets/image-section-search_2x.png' | relative_url }})
     }
@@ -2571,7 +2571,7 @@ html.ie .section-hero .wrapper {
     }
 }
 
-@media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .section-search .image-headline {
         background-image: url({{ '/assets/image-section-search-medium_2x.png' | relative_url }})
     }
@@ -2587,7 +2587,7 @@ html.ie .section-hero .wrapper {
     }
 }
 
-@media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .section-search .image-headline {
         background-image: url({{ '/assets/image-section-search-small_2x.png' | relative_url }})
     }
@@ -2624,7 +2624,7 @@ html.ie .section-hero .wrapper {
     margin-left:-219px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-save .image-headline {
         background-image: url({{ '/assets/image-section-save_2x.png' | relative_url }})
     }
@@ -2640,7 +2640,7 @@ html.ie .section-hero .wrapper {
     }
 }
 
-@media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .section-save .image-headline {
         background-image: url({{ '/assets/image-section-save-medium_2x.png' | relative_url }})
     }
@@ -2656,7 +2656,7 @@ html.ie .section-hero .wrapper {
     }
 }
 
-@media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .section-save .image-headline {
         background-image: url({{ '/assets/image-section-save-small_2x.png' | relative_url }})
     }
@@ -2693,7 +2693,7 @@ html.ie .section-hero .wrapper {
     margin-left:-219px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-edit .image-headline {
         background-image: url({{ '/assets/image-section-edit_2x.png' | relative_url }})
     }
@@ -2709,7 +2709,7 @@ html.ie .section-hero .wrapper {
     }
 }
 
-@media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .section-edit .image-headline {
         background-image: url({{ '/assets/image-section-edit-medium_2x.png' | relative_url }})
     }
@@ -2725,7 +2725,7 @@ html.ie .section-hero .wrapper {
     }
 }
 
-@media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .section-edit .image-headline {
         background-image: url({{ '/assets/image-section-edit-small_2x.png' | relative_url }})
     }
@@ -2767,7 +2767,7 @@ html.ie .section-hero .wrapper {
     margin-top:19px
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and(min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx),(-webkit-min-device-pixel-ratio: 1.5),(min-resolution: 144dpi) {
     .section-sync .image-headline {
         background-image: url({{ '/assets/image-section-sync_2x.png' | relative_url }})
     }
@@ -2783,7 +2783,7 @@ html.ie .section-hero .wrapper {
     }
 }
 
-@media only screen and (max-width: 1068px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 1068px) and(min-resolution: 1.5dppx), only screen and(max-width: 1068px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
     .section-sync .image-headline {
         background-image: url({{ '/assets/image-section-sync-medium_2x.png' | relative_url }})
     }
@@ -2799,7 +2799,7 @@ html.ie .section-hero .wrapper {
     }
 }
 
-@media only screen and (max-width: 735px) and(-webkit-min-device-pixel-ratio: 1.5), only screen and(max-width: 735px) and(min-resolution: 1.5dppx), only screen and(max-width: 735px) and(min-resolution: 144dpi) {
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
     .section-sync .image-headline {
         background-image: url({{ '/assets/image-section-sync-small_2x.png' | relative_url }})
     }
