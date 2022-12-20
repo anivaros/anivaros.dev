@@ -19,6 +19,19 @@
   {% assign og_image = page.og_image | default: site.og_image | escape %}
   <meta property="og:image" content="{{ og_image | absolute_url }}.png">
   <meta property="og:locale" content="{{ page.lang | default: site.lang | default: "ru" }}">
+  <meta name="twitter:title" content="Incipe — The ultimate recipe organizer for iPhone and iPad.">
+  <meta name="twitter:description" content="Incipe is the ultimate recipe organizer for your iOS devices. With Incipe, you can easily store, catalog, and search for your favorite recipes, all in one convenient app.">
+  <meta name="twitter:url" content="https://anivaros.dev/en/incipe/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@IncipeApp">
+  {% assign twitter_image = page.twitter_image | default: site.twitter_image | escape %}
+  <meta name="twitter:image:src" content="{{ twitter_image | absolute_url }}.png">
+  <meta name="twitter:app:name:iphone" content="Incipe: your personal cookbook">
+  <meta name="twitter:app:id:iphone" content="1575544584">
+  <meta name="twitter:app:url:iphone" content="incipe://recipe">
+  <meta name="twitter:app:name:ipad" content="Incipe: your personal cookbook">
+  <meta name="twitter:app:id:ipad" content="1575544584">
+  <meta name="twitter:app:url:ipad" content="incipe://recipe">
   {% if page.keywords %}
   {% capture page_keywords %}{% t page.keywords %}{% endcapture %}
   {% endif %}
